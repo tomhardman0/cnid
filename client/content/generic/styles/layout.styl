@@ -1,0 +1,33 @@
+color-black = black
+color-darkgrey = #cccccc;
+color-grey = #eeeeee;
+
+mobile = 767px
+bezier = cubic-bezier(0,0,.58,1)
+
+*
+  box-sizing: border-box
+
+body
+  background-color: color-darkgrey
+  margin: 1rem
+  +above(mobile)
+    margin: 2rem auto
+
+.container
+  margin: 0 auto
+  background-color: color-grey
+  padding: 1rem
+  width: 100%
+  +above(mobile)
+    max-width: 800px
+    padding: 2rem
+    width: 80%
+
+._table
+  display: table
+  height: 100%
+
+._table__valign
+  display: table-cell
+  vertical-align: middle

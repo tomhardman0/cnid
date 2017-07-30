@@ -1,0 +1,28 @@
+{
+  "name": "cnid",
+  "version": "0.0.0",
+  "dependencies": {
+    "express": "^4.14.1",
+    "lodash": "^4.17.4",
+    "pug": "^2.0.0-rc.2",
+    "slugify": "^1.1.0"
+  },
+  "scripts": {
+    "start": "node server/app.js",
+    "test": "jasmine tests/app.spec.js"
+  },
+  "engines": {
+    "node": "v7.5.0",
+    "npm": "v4.1.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-stylus": "^2.6.0",
+    "gulp-watch": "^4.3.11",
+    "jasmine": "^2.7.0",
+    "rupture": "^0.6.2",
+    "supertest": "^3.0.0"
+  }
+}

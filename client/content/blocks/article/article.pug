@@ -1,0 +1,14 @@
+section.article
+
+  if !article
+    h1 No article could be found with this name
+  else
+    h1 #{title}
+    
+    each block in article.body
+      if block.type === 'h2'
+        h2.article--generic-elem.article--header #{block.body}
+      else if block.type === 'plaintext'
+        p.article--generic-elem.article--text #{block.body}
+      else if block.type === 'pull_quote'
+        blockquote.article--generic-elem.article--quote #{block.body}

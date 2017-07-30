@@ -1,0 +1,11 @@
+sections.contents
+  h1 Articles
+  ul.contents--list
+    each article in articles
+      li.item
+        a.item--link(href=`/${article.slug}`)
+          img.item--image(src=article.url title=article.title)
+          ._table
+            ._table__valign
+              p.item--title #{article.title}
+        
