@@ -11,5 +11,5 @@ Online at [cnid.herokuapp.com](http://cnid.herokuapp.com/).
   - my first thought when reading the the test was actually "this doesn't require any FE JS", hence my solution here.
 
 - I've used supertest to test this which I'm aware _isn't really unit testing_, however I noticed there was a `test` folder in the repo and didn't want anyone to think I totally ignored it.
-  - Even the controllers in my routes have pretty much no logic
-  - A client side solution would have contained far more code, all of which would've been testable
+  - I would've pulled out my route controllers for testing but there's pretty much no logic in them
+  - I'm aware a client side solution would have contained far more code, all of which would've allowed me to demonstrate more testing
