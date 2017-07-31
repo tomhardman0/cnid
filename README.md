@@ -18,3 +18,12 @@ Online at [cnid.herokuapp.com](http://cnid.herokuapp.com/).
   - I wouldn't usually load/parse/maniuplate a JSON file when initialising an app. Let's please assume this would be in a db and accessed via an API in more typical circumstances.
   - I'm aware I'm sending all the data for the contents page when only an array of titles/image urls/slugs is necessary. This isn't ideal but could be corrected easily.
   - In the article.pug block, I wanted to use a map of pug mixins, then just use the block.type as a key and throw the body into the looked up mixin. I couldn't figure out how to do this with pug so just left the if/else ifs. Sorry, I know they're not pretty!
+
+## Other work
+
+For better examples of both fe and be JS, feel free to dip into the below, but take into account they're all WIP:
+
+- [Junip](https://github.com/tomhardman0/junip)
+- [Junip CMS](https://github.com/tomhardman0/junip-cms)
+
+Both the above were/are exercises in learning new things, so you'll come across some peculiarities but there's definitely more JS to see.
